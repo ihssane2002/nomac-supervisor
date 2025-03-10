@@ -24,6 +24,9 @@
       <change afterPath="$PROJECT_DIR$/station_meteo_supervision/src/graphique.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/station_meteo_supervision/src/nomac.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/station_meteo_supervision/src/sem-tete-noor-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/station_meteo_supervision" beforeDir="false" afterPath="$PROJECT_DIR$/station_meteo_supervision" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/station_meteo_supervision/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/station_meteo_supervision/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/station_meteo_supervision/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/station_meteo_supervision/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/station_meteo_supervision/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/station_meteo_supervision/public/index.html" afterDir="false" />
@@ -51,14 +54,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ihssane bammad/Desktop/station_meteo_supervision/station_meteo_supervision/src&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ihssane bammad/Desktop/station_meteo_supervision/station_meteo_supervision/src"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ihssane bammad\Desktop\station_meteo_supervision\station_meteo_supervision\src" />
