@@ -49,11 +49,11 @@ npm start
 ## Fonctionnalités principales
 
 1. Récupération et affichage des données météorologiques en temps réel
-✔️ Dashboard interactif pour la supervision
-✔️ API REST avec Express.js pour récupérer les données depuis MongoDB
-✔️ Interface moderne et réactive avec React
+- Dashboard interactif pour la supervision
+- API REST avec Express.js pour récupérer les données depuis MongoDB
+- Interface moderne et réactive avec React
 
-2.Améliorations futures
+2. Améliorations futures
 
 - Ajout de graphiques pour visualiser l'évolution des mesures
 - Intégration d'un système d'alertes pour les seuils critiques
@@ -63,10 +63,12 @@ npm start
 
 Variables d'environnement
 
-Crée un fichier .env dans le dossier backend/ et ajoute les paramètres suivants :
+Créer un fichier .env dans /backend_server1 et /backend_server2, puis ajouter :
 
-PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
+PORT=5000  # Pour backend_server1
 
-
+MONGO_URI=your_mongodb_connection_string
+PORT=5001  # Pour backend_server2
 
