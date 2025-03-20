@@ -1,0 +1,116 @@
+/* Ajustement pour occuper toute la largeur */
+.dashboard {
+  display: flex;
+  width: 100vw; /* Utiliser toute la largeur */
+  height: 100vh; /* Utiliser toute la hauteur */
+  background: linear-gradient(135deg, #1E1E2F, #2A2A3A);
+  color: white;
+  overflow: hidden; /* Éviter les débordements */
+}
+
+/* Ajustement du contenu principal */
+.content {
+  flex-grow: 1; /* S'assure que le contenu occupe tout l'espace disponible */
+  padding: 20px;
+  margin-left: 220px; /* Adapter à la largeur de la sidebar */
+  height: 100vh;
+  overflow-y: auto;
+  background: none; /* S'assurer qu'il ne reste pas de fond blanc */
+}
+
+
+/* Barre latérale */
+.sidebar {
+  width: 220px;
+  background: linear-gradient(135deg, #232323, #1B1B2A);
+  color: white;
+  padding: 20px;
+  box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.3);
+  height: 100vh; /* Assurez-vous que la barre latérale couvre toute la hauteur de la page */
+  position: fixed; /* La barre latérale est fixe sur le côté gauche */
+}
+
+/* Style pour les éléments du menu dans la barre latérale */
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 12px;
+  margin: 12px 0;
+  background: #333;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sidebar ul li:hover {
+  background: #444;
+}
+
+/* Contenu principal */
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 240px; /* Décalage pour laisser de la place à la barre latérale */
+  height: 100vh;
+  overflow-y: auto; /* Permet de défiler si le contenu est trop grand */
+}
+
+/* Cartes de données */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 1.3em;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Couleurs des cartes avec un effet lumineux */
+.temperature { background: linear-gradient(135deg, #FF6B6B, #FF3B3B); }
+.humidity { background: linear-gradient(135deg, #4A90E2, #007AFF); }
+.pressure { background: linear-gradient(135deg, #E34CB2, #C400A5); }
+.luminosity { background: linear-gradient(135deg, #FFD700, #FFB400); }
+
+/* Graphiques */
+.charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.chart-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, background 0.3s;
+}
+
+.chart-container:hover {
+  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.15);
+}
+/* Supprimer l'image de fond dans le dashboard */
+.no-background {
+  background-image: none !important;
+}

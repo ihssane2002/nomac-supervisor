@@ -1,0 +1,172 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./noor.jpeg'); /* Chemin relatif vers l'image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-attachment: fixed;
+}
+
+/* Auth Container */
+.auth-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.7); /* Fond sombre pour contraste */
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+
+/* Titre */
+h2 {
+  font-size: 2.5rem;
+  color: #007BFF; /* Couleur bleue professionnelle */
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Message de bienvenue */
+.welcome-message {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Animation fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style des champs de saisie */
+.input-group {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 2px solid #007BFF; /* Bordure bleue */
+  background-color: #333;
+  color: #fff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #0056b3; /* Bleu plus foncé au focus */
+  box-shadow: 0 0 10px rgba(0, 86, 179, 0.5);
+  background-color: #444;
+}
+
+.input-group input::placeholder {
+  color: #bbb;
+}
+
+/* Bouton de soumission */
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #007BFF; /* Bleu professionnel */
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3; /* Bleu plus foncé au survol */
+  transform: translateY(-3px);
+}
+
+.submit-btn:active {
+  transform: translateY(1px);
+}
+
+/* Switch to register page link */
+.switch-btn {
+  margin-top: 15px;
+  background-color: transparent;
+  color: #007BFF; /* Bleu professionnel pour le lien */
+  font-size: 1.1rem;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.switch-btn:hover {
+  color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+/* Responsivité mobile */
+@media (max-width: 768px) {
+  .auth-container {
+    padding: 30px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .input-group input {
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .submit-btn {
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
+
+
+/* Supprimer l'image de fond dans le dashboard */
+body.no-background .auth-container {
+  background-image: none;
+}

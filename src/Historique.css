@@ -1,0 +1,29 @@
+.historique {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.charts {
+  display: flex;
+  flex-direction: column; /* Chaque graphique sur une ligne différente */
+  gap: 30px; /* Espacement entre les graphiques */
+  width: 100%;
+}
+
+.chart-container {
+  width: 100%; /* Prend toute la largeur disponible */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
