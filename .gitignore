@@ -1,0 +1,5 @@
+# Ignorer node_modules et les caches
+node_modules/
+*.pack
+.cache/
+ 
