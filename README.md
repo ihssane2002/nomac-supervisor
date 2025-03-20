@@ -1,4 +1,5 @@
-🌦️ ## Nomac Supervisor
+## 🌦️  Nomac Supervisor
+
 #📌 Description du projet
 
 Nomac Supervisor est une application de supervision d'une station météo, permettant d'afficher et d'analyser les données météorologiques en temps réel.
@@ -12,23 +13,26 @@ Backend : Node.js, Express.js, MongoDB
 Base de données : MongoDB 
 
 ##📝 Installation et exécution
+
 #✍️ Cloner le projet
+
 bash
 Copy
 Edit
 git clone https://github.com/ihssane2002/Nomac-supervisor.git
 cd Nomac-supervisor
+
 ##🔄 Installer les dépendances
+
 Backend :
 
-bash
-Copy
-Edit
 cd backend
 npm install
 Frontend :
 npm install
+
 #🚀 Lancer le projet
+
 Backend :
 
 Ouvrez deux terminaux :
