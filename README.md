@@ -53,12 +53,14 @@ L'application se lance sur : http://localhost:3000/
 Récupération et affichage des données météorologiques en temps réel
 
 Dashboard interactif pour la supervision
+![Forum d'entraide](hist.png)
 
 API REST avec Express.js pour récupérer les données depuis MongoDB
 
 Interface moderne et réactive avec React
 
 Gestion des alertes pour les seuils critiques
+![Forum d'entraide](aler.png)
 
 
 
